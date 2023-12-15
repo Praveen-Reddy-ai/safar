@@ -1,0 +1,236 @@
+.admin-page-main-div {
+    /* The image used 
+    background-image: url("/assets/admin_page_main_div_img1.jpg");*/
+  
+    /* Full height */
+    height: 100vh;
+    width: 100wh;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: white; /* For browsers that do not support gradients */
+    overflow: auto;
+  }
+
+
+  .add-client-page-main-div {
+    /* The image used 
+    background-image: url("/assets/back_ground_image.jpg");*/
+  
+    /* Full height */
+    height: 100vh;
+    width: 100wh;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, FloralWhite , DarkSlateGray );
+    overflow-y: scroll;
+  }
+
+  .add-question-page-main-div {
+    /* The image used 
+    background-image: url("/assets/back_ground_image.jpg");*/
+  
+    /* Full height */
+    height: 100vh;
+    width: 100wh;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, FloralWhite , DarkSlateGray);
+    overflow-y: scroll;
+  }
+
+  .take-survey-page-main-div {
+    /* The image used 
+    background-image: url("/assets/back_ground_image.jpg");*/
+  
+    /* Full height */
+    height: 100vh;
+    width: 100wh;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    /*background-color: white;*/ /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, FloralWhite , FloralWhite); */
+    overflow-y: scroll;
+  }
+
+  .add-survey-page-main-div {
+    /* The image used 
+    background-image: url("/assets/back_ground_image.jpg");*/
+  
+    /* Full height */
+    height: 100vh;
+    width: 100wh;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, FloralWhite , DarkSlateGray);
+  }
+
+  .add-link {
+    color: greenyellow
+  }
+
+  .modify-link {
+    color: violet
+  }
+
+  .delete-link {
+    color: Tomato
+  }
+
+  .flag-link {
+    color: DodgerBlue
+  }
+
+  .my-legend{
+    margin-top: -25px!important;
+    margin-left: -70%!important;
+  }
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .my-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 125px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 125px;
+    }
+
+    .survey_result_main_div{
+      background: #ffffff!important;
+          position: fixed;
+          height: 100%!important;
+          width: 100%;}
+    
+
+    .card-title{
+      color: white;
+    }
+
+    .rc-slider-rail {
+      background-color: red
+    }
+
+    .rc-slider-handle {
+      background-color: red
+    }
+
+    .rc-slider-track {
+      background-color: green!important
+    }
+
+    .textboxes {
+      border-style: solid;
+      border-color: teal;
+      border-bottom: 3px solid teal;
+    }
+
+    #scoring_fig {
+      border-style: solid;
+      border-color: DarkSlateGray;
+    }
+
+    .btn-primary {
+      background-color: DarkSlateGray!important;
+      border-color: DarkSlateGray!important;
+    }
+
+    .navbar {
+      height: 60px;  
+    }
+
+    .nav-link {
+      font-size: 120%;
+    }
+
+
+    .export {
+      background-color: white!important;
+      border-radius: 5px;
+    }
+
+    .main-logo {
+      background-image: linear-gradient(to bottom right,  DarkSlateGray, FloralWhite );
+    }
+
+    .esg-logo-div {
+      margin-top: 0px;
+      padding-left: 100px;
+    }
+
+    .admin-screen-menu-btn {
+      padding: 0px!important;
+      margin: 0px!important;
+    }
+
+    .homebackgroundimg {
+      position: relative; 
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .homebackgroundimg::before {    
+        content: "";
+        background-image: url('/assets/header_sustainability_pc.jpg');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.5;
+  }
+
+  .show-hide {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white!important;
+  }
+
+  .mantine-sijs4k[data-active] {
+    border-color: orange
+}
+
+.mantine-TransferList-transferListTitle {
+  color: orangered;
+  text-align: center;
+}
